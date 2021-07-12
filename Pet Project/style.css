@@ -1,0 +1,102 @@
+.site-header{
+    background-color: rgb(196, 96, 60);
+    color: white;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 20px;
+}
+.display-1{
+    text-align: center;
+}
+h2{
+    margin-left: 1rem;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    font-size: 3rem;
+    border-radius: 20px;
+    background: rgba(43, 166, 203, 0.5 /* alpha value for background */);
+    padding: 0.2em 0.2em 0.2em 0.2em;
+}
+p{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    background-color: rgb(61, 133, 109);
+    border-radius: 20px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.input-container{
+    color: cornsilk;
+    display: flex;
+    padding: 1rem;
+    background-color: rgb(108, 211, 99);
+    font-weight: 300;
+    font-size: 1.3rem;
+    border: 1px dashed black;
+    border-radius: 10px;
+    margin-top: .5rem;
+}
+.input-container label{
+    flex-basis: 10rem;
+}
+#btn-register{
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+} 
+#pets{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 0.2rem;
+}
+.pet{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(245, 236, 116);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+#searchPet{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+.selected{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(245, 236, 116);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-left: 1rem;
+    border: 2px solid red
+}
+.pet-title{
+    display: table;
+    justify-content: space-between;
+}
+button{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(89, 197, 197);
+}
+button:hover{
+    text-shadow: 1px 1px 1px;
+    background-color: rgb(139, 73, 86);
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+.footer-text{
+    background-color: black;
+    font-size: 1rem;
+    margin-top: 10rem;
+}
